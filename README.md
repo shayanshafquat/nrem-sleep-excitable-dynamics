@@ -14,4 +14,4 @@ Our analysis reveals:
 - Mechanisms of stability and transitions between different neural states
 - Quantitative relationships between neural drive, adaptation, and UP/DOWN state dynamics
 
-For a detailed presentation of our findings, please refer to our [poster](../files/poster_pbm.pdf).
+For a detailed presentation of our findings, please refer to our [poster](poster_pbm.pdf).
