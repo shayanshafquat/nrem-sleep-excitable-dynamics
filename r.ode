@@ -1,0 +1,16 @@
+# r.ode
+# Example of defining an ODE for XPPAUT
+
+# Parameters
+par w=6.0, I=2.5, x_0=5
+
+# ODE definition
+R_inf(x) = 1/(1+exp(-(x-x_0)))
+dr/dt = -r + R_inf(w*r + I)
+
+# Initial conditions
+init r = 0.1
+
+# Done
+done
+

@@ -1,0 +1,17 @@
+# r_a.ode
+
+# Parameters
+par w=6.0,I=2.5,b=1,x_0=5,r_0=0.5,tau_a=2,k=15
+
+# ODE definition
+R_inf(x) = 1/(1+exp(-(x-x_0)))
+A_inf(x) = 1/(1 + exp(-k*(x - r_0)))
+dr/dt = -r + R_inf(w*r -b*a  + I)
+da/dt = (-a + A_inf(r))/tau_a
+
+# Initial conditions
+init r = 0.1
+init a = 0.1
+
+# Done
+done
